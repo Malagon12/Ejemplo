@@ -11,5 +11,7 @@ namespace Ejemplo
         public string Nombre { get; set; }
         public string apellido { get; set; }
         public string edad {  get; set; }
+        public string documento {  get; set; }
+        public string telefono {  get; set; }
     }
 }

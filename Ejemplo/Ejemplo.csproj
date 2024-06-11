@@ -48,15 +48,20 @@
   <ItemGroup>
     <Compile Include="ClBye.cs" />
     <Compile Include="ClHolascs.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Datos\ClAdminSQL.cs" />
+    <Compile Include="Datos\ClConexion.cs" />
+    <Compile Include="Datos\ClConsultasD.cs" />
+    <Compile Include="Entidades\ClPersonaE.cs" />
+    <Compile Include="Vista\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Vista\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logica\ClRegistrarL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Vista\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
