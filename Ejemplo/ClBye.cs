@@ -8,5 +8,8 @@ namespace Ejemplo
 {
     internal class ClBye
     {
+        public string Nombre { get; set; }
+        public string apellido { get; set; }
+        public string edad {  get; set; }
     }
 }
